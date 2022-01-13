@@ -1,0 +1,53 @@
+div.top {
+  height: 15vh;
+  width: 100%;
+
+  display: flex;
+}
+.top .logo {
+  font-size: 70px;
+  text-align: center;
+  line-height: 15vh;
+  flex-grow: 1;
+}
+.top nav.header {
+  flex-grow: 3;
+  line-height: 10vh;
+  line-height: 15vh;
+
+  text-align: right;
+}
+.top nav.header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 50px;
+}
+.top nav.header ul li:first-child {
+  margin-left: 0px;
+}
+.top nav.header ul li {
+  margin-left: 80px;
+  font-size: 30px;
+}
+.top nav.header ul li:hover {
+  border-bottom: 3px solid black;
+}
+div.main_content {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 10%;
+  min-height: 80vh;
+}
+div.main_content h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+div.main_content h2 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
